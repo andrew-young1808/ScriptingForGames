@@ -332,6 +332,7 @@ GameObject:
   - component: {fileID: 1300771414}
   - component: {fileID: 1300771416}
   - component: {fileID: 1300771417}
+  - component: {fileID: 1300771418}
   m_Layer: 0
   m_Name: CharacterMover
   m_TagString: Untagged
@@ -406,6 +407,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
+--- !u!114 &1300771418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300771413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcf471e533b4b4a46904d1f0a3660216, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  key1: 275
+  key2: 276
+  direction1: 0
+  direction2: 180
 --- !u!1 &1769125284
 GameObject:
   m_ObjectHideFlags: 0
